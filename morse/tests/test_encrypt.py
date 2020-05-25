@@ -15,3 +15,4 @@ def test_encrypt():
     assert encrypt('(') == '-.--. '
     assert encrypt(')') == '-.--.- '
     assert encrypt('.') == '.-.-.- '
+    assert encrypt('oi pessoal') == '--- ..   .--. . ... ... --- .- .-.. '
