@@ -1,9 +1,8 @@
-[logo]: morse/resources/morse_translater_logo.png
 [contributing]: CONTRIBUTING.md
 [license]: LICENSE
 [requirements]: requirements.txt
 
-![logo_img][logo]
+<img alt='logo' src='morse/resources/morse_translater_logo.png' style='width:50%; display: block; margin: 0 auto;'>
 
 # :speech_balloon: Morse Code Translater 
 
