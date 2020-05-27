@@ -1,4 +1,4 @@
-[logo]: morse\resources\morse_translater_logo.png
+[logo]: https://github.com/LauraBeatris/morse/resources/morse_translater_logo.png
 [contributing]: CONTRIBUTING.md
 [license]: LICENSE
 [requirements]: requirements.txt
@@ -12,11 +12,11 @@ This repository is about a simple GUI program made with Tkinter (python's standa
 
 # :pushpin: Topics
 
-- [:rocket: Features](#-features)
-- [:clipboard: Requirements](#-requirements)
-- [:running: Running the program](#-running-the-program)
-- [:tada: How to Contribute](#-how-to-contribute)
-- [:closed_book: License](#-license)
+- [:rocket: Features](#rocket-features)
+- [:clipboard: Requirements](#clipboard-requirements)
+- [:running: Running the program](#running-running-the-program)
+- [:tada: How to Contribute](#tada-how-to-contribute)
+- [:closed_book: License](#closed_book-license)
 
 
 # :rocket: Features
