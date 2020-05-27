@@ -8,6 +8,7 @@ class App(tk.Frame):
     def __init__(self, master=None, lang='ENGLISH'):
         super().__init__(master)
         self.master = master
+        self.master.iconbitmap('morse/resources/ico.ico')
         self.mode = 'text'
         self.output_txt = ''
         self.text = WIDGET_TEXT[lang]
@@ -34,9 +35,12 @@ class App(tk.Frame):
 
         self.container_4 = tk.Frame(self.master, pady='20')
         self.container_4.pack()
-        
+
         self.container_5 = tk.Frame(self.container_4, padx='10')
         self.container_5.pack(side='left')
+
+        self.container_6 = tk.Frame(self.master)
+        self.container_6.pack(side='left')
 
     def create_widgets(self):
         self.main_title = tk.Label(
@@ -44,7 +48,7 @@ class App(tk.Frame):
         self.main_title.pack()
 
         self.mode_label = tk.Label(
-            self.container_1, text=self.set_mode_label_text(), font=('Verdana','12','italic'))
+            self.container_1, text=self.set_mode_label_text(), font=('Verdana', '12', 'italic'))
         self.mode_label.pack()
 
         self.title_input = tk.Label(
@@ -73,6 +77,12 @@ class App(tk.Frame):
             command=self.change_mode)
         self.change_btn.pack()
 
+        self.change_lang = tk.Button(
+            self.container_6, text=self.text['lang_btn'], font=(
+                'Verdana', '10'),
+            command=self.change_lang)
+        self.change_lang.pack()
+
     def translate(self):
         if self.mode == 'text':
             try:
@@ -95,6 +105,17 @@ class App(tk.Frame):
         self.clear_input()
         self.clear_output()
         self.mode_label['text'] = self.set_mode_label_text()
+
+    def change_lang(self):
+        self.lang = 'PORTUGUESE' if self.lang == 'ENGLISH' else 'ENGLISH'
+        self.text = WIDGET_TEXT[self.lang]
+        self.main_title['text'] = self.text['main_title']
+        self.mode_label['text'] = self.set_mode_label_text()
+        self.title_input['text'] = self.text['title_input']
+        self.title_output['text'] = self.text['title_output']
+        self.change_lang['text'] = self.text['lang_btn']
+        self.change_btn['text'] = self.text['change_btn']
+        self.translate_button['text'] = self.text['translate_btn']
 
     def clear_output(self):
         self.output_label.delete(0, len(self.output_label.get()))

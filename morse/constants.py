@@ -55,21 +55,23 @@ MORSE_MAP = {
 
 WIDGET_TEXT = {
     'ENGLISH': {
-        'main_title': 'Morse Translater',
+        'main_title': 'Morse Code Translater',
         'translate_btn': 'Translate',
         'title_input': 'Input:',
         'title_output': 'Output:',
         'change_btn': 'Change Mode',
-        'ERROR': 'ERROR: TRY ANOTHER VALUE'
+        'ERROR': 'ERROR: TRY ANOTHER VALUE',
+        'lang_btn':'Lang: en-us'
     },
 
     'PORTUGUESE': {
-        'main_title':'Tradutor de Morse',
+        'main_title':'Tradutor de Código Morse',
         'translate_btn': 'traduzir',
         'title_input': 'Entrada:',
         'title_output': 'Saída:',
         'change_btn': 'Trocar Modo',
-        'ERROR':'ERRO: TENTE OUTRO VALOR'
+        'ERROR':'ERRO: TENTE OUTRO VALOR',
+        'lang_btn':'Língua: pt-br'
     }
 }
 
