@@ -3,7 +3,7 @@
 [requirements]: requirements.txt
 
 <p align="center">
-    <img alt="logo" src="morse/resources/morse_translater_logo.png" width="40%">
+    <img alt="logo" src="morse/resources/morse_translater_logo.png" width="20%">
 </p>
 
 # :speech_balloon: Morse Code Translater 
