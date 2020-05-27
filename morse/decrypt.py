@@ -1,4 +1,4 @@
-from constants import MORSE_MAP
+from .constants import MORSE_MAP
 
 
 def decrypt(message):

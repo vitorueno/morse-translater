@@ -1,7 +1,7 @@
 import tkinter as tk
-from constants import WIDGET_TEXT, FONT, INPT_W
-from decrypt import decrypt
-from encrypt import encrypt
+from .constants import WIDGET_TEXT, FONT, INPT_W
+from .decrypt import decrypt
+from .encrypt import encrypt
 
 
 class App(tk.Frame):

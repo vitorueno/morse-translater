@@ -1,5 +1,5 @@
 from ..encrypt import encrypt
-from ..decrypt import decrypt
+from morse.decrypt import decrypt
 
 def test_encrypt_decrypt():
     assert decrypt(encrypt('OI')) == 'OI '
