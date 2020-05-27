@@ -9,3 +9,4 @@ if __name__ == "__main__":
     root.maxsize(500,250)
     App(root)
     root.mainloop()
+    

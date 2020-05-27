@@ -7,5 +7,5 @@ def encrypt(message):
         if letter != ' ': 
             cipher += MORSE_MAP[letter] + ' '
         else: 
-            cipher += '  '
+            cipher += ' '
     return cipher 

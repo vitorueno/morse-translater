@@ -40,11 +40,11 @@ class App(tk.Frame):
 
     def create_widgets(self):
         self.main_title = tk.Label(
-            self.container_1, text=self.text['main_title'], font=('Arial', '17'))
+            self.container_1, text=self.text['main_title'], font=('Arial', '17', 'bold'))
         self.main_title.pack()
 
         self.mode_label = tk.Label(
-            self.container_1, text=self.set_mode_label_text(), font=FONT)
+            self.container_1, text=self.set_mode_label_text(), font=('Verdana','12','italic'))
         self.mode_label.pack()
 
         self.title_input = tk.Label(
@@ -101,10 +101,3 @@ class App(tk.Frame):
 
     def clear_input(self):
         self.input.delete(0, len(self.input.get()))
-
-
-if __name__ == "__main__":
-    root = tk.Tk(className=' Morse Translater')
-    root.geometry('500x250')
-    App(root)
-    root.mainloop()
