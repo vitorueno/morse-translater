@@ -1,4 +1,4 @@
-[logo]: https://github.com/vitorueno/morse/resources/morse_translater_logo.png
+[logo]: https://github.com/vitorueno/morse-translater/resources/morse_translater_logo.png
 [contributing]: CONTRIBUTING.md
 [license]: LICENSE
 [requirements]: requirements.txt
