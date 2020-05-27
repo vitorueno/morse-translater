@@ -3,8 +3,9 @@
 [requirements]: requirements.txt
 
 <p align="center">
-    <img alt="logo" src="morse/resources/morse_translater_logo.png" width="50%">
+    <img alt="logo" src="morse/resources/morse_translater_logo.png" width="40%">
 </p>
+
 # :speech_balloon: Morse Code Translater 
 
 This repository is about a simple GUI program made with Tkinter (python's standart GUI package) which translates text to morse code and vice-versa. It has both English (en-us) and Portuguese (pt-br) versions. 
