@@ -2,8 +2,9 @@
 [license]: LICENSE
 [requirements]: requirements.txt
 
-<img alt='logo' src='morse/resources/morse_translater_logo.png' style='width:50%; display: block; margin: 0 auto;'>
-
+<p align="center">
+    <img alt="logo" src="morse/resources/morse_translater_logo.png" width="50%">
+</p>
 # :speech_balloon: Morse Code Translater 
 
 This repository is about a simple GUI program made with Tkinter (python's standart GUI package) which translates text to morse code and vice-versa. It has both English (en-us) and Portuguese (pt-br) versions. 
@@ -57,14 +58,3 @@ Feel free to contribute however you'd like, but checkout my [contributing][contr
 # :closed_book: License
 
 This project is under [MIT license][license].
-
-
-<style>
-
-img{
-    width:50%;
-    display: block;
-    margin: 0 auto;
-}
-
-</style>
