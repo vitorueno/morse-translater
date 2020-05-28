@@ -15,6 +15,6 @@ def decrypt(message):
                 decipher += ' '
             else:
                 decipher += list(MORSE_MAP.keys())[list(MORSE_MAP
-                                                              .values()).index(citext)]
+                                                        .values()).index(citext)]
                 citext = ''
     return decipher
