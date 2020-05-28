@@ -8,7 +8,7 @@ Hi, my name's Vítor Otto, and i'm the creater and mainteinar of this project.
 
 If you find a bug, please let me know **opening an issue** describing it and adding a way to reproduce the bug.
 
-*Remember*: even if you don't know to correct the bug it's important to open an issue, because our main goal is to improve our programs even if they're simple.
+*Remember*: even if you don't know how to correct the bug it's important to open an issue, because our main goal is to improve our programs even if they're simple.
 
 Feel free to improve this project as you'd like.
 
