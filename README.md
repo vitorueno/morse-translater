@@ -36,11 +36,11 @@ This repository is about a simple GUI program made with Tkinter (python's standa
 
 > Python 3.6 or greater 
 
-You don't have to install anything else besides Python since TKinter is pre-installed by default, but if necessary, run `python -m pip install tkinter` in order to install the packege.
+You don't have to install anything else besides Python since TKinter is pre-installed by default, but if necessary, run `python -m pip install tkinter` in order to install the package.
 
 Check the [requirements.txt][requirements] to see exactly what I've used
 
-# :running: running the program
+# :running: Running the program
 
 Since this project focuses on the simplicity, only one command is necessary to start the program (make sure to be in the project directory):
 
