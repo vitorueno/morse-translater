@@ -37,7 +37,7 @@ This repository is about a simple GUI program made with Tkinter (python's standa
 
 - [:rocket: Features](#rocket-features)
 - [:clipboard: Requirements](#clipboard-requirements)
-- [:running: Running the program](#running-running-the-program)
+- [:running: Running the Program](#running-running-the-program)
 - [:tada: How to Contribute](#tada-how-to-contribute)
 - [:closed_book: License](#closed_book-license)
 
@@ -57,7 +57,7 @@ You don't have to install anything else besides Python since TKinter is pre-inst
 
 Check the [requirements.txt][requirements] to see exactly what I've used
 
-# :running: Running the program
+# :running: Running the Program
 
 Since this project focuses on the simplicity, only one command is necessary to start the program (make sure to be in the project directory):
 
