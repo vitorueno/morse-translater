@@ -29,8 +29,8 @@
 
 This repository is about a simple GUI program made with Tkinter (python's standart GUI package) which translates text to morse code and vice-versa. It has both English (en-us) and Portuguese (pt-br) versions. 
 
-<img alt="language_support" src="morse/resources/lang.gif" width="48%" align="right">
-<img alt="demonstration" src="morse/resources/demonstration.gif" width="48%" >
+<img alt="language_support" src="morse/resources/lang.gif" width="47%" align="right">
+<img alt="demonstration" src="morse/resources/demonstration.gif" width="47%">
 
 
 # :pushpin: Topics
@@ -59,16 +59,25 @@ Check the [requirements.txt][requirements] to see exactly what I've used
 
 # :running: Running the Program
 
-Since this project focuses on the simplicity, only one command is necessary to start the program (make sure to be in the project directory):
+## GUI
 
-> `python -m morse` 
+Since this project focuses on the simplicity, only one command is necessary to start the GUI program (make sure to be in the project directory):
 
+> `python -m morse run` 
+
+## CLI
+
+Alternatively, you can use the following commands in order to encrypt or decrypt morse code:
+
+> `python -m morse code 'my message to be encrypted'`
+
+> `python -m morse decode '... --- ...'`
 
 # :chart_with_upwards_trend: Next Steps
 
 I want to continually improve this program even though it's very simple, so these are the main things I will update or include in the future:
 
-- CLI options
+- Create an executable
 - Prettify the GUI
 - Fix bugs
 
