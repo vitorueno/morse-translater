@@ -3,12 +3,29 @@
 [requirements]: requirements.txt
 [lang]: morse/resources/lang.gif
 [demonstration]: morse/resources/demonstration.gif
+[author-link]:https://img.shields.io/badge/Author-V%C3%ADtor%20Augusto%20Ueno%20Otto-lightgrey
+[language-link]:https://img.shields.io/badge/Language-Python-lightgrey
+[license-link]:https://img.shields.io/badge/License-MIT-lightgrey
+[star-link]:https://img.shields.io/github/stars/vitorueno/morse-translater?color=lightgray
+[star-link]:https://img.shields.io/github/stars/vitorueno/morse-translater?color=lightgray
+[contributors-link]:https://img.shields.io/github/contributors/vitorueno/morse-translater?color=lightgray
+[fork-link]:https://img.shields.io/github/forks/vitorueno/morse-translater?color=lightgray
+[twitter-link]:https://img.shields.io/twitter/url?logoColor=grey&style=social&url=https%3A%2F%2Ftwitter.com%2FUenoOtto
 
 <p align="center">
     <img alt="logo" src="morse/resources/morse_translater_logo.png" width="20%">
 </p>
 
 # :speech_balloon: Morse Code Translater 
+
+[![author][author-link]](https://github.com/vitorueno)
+[![language][language-link]](https://www.python.org/)
+[![license][license-link]](https://github.com/vitorueno/morse-translater/blob/master/LICENSE)
+[![stars][star-link]](https://github.com/vitorueno/morse-translater/stargazers)
+[![contributors][contributors-link]](https://github.com/vitorueno/morse-translater/graphs/contributors)
+[![forks][fork-link]](https://github.com/vitorueno/morse-translater/network/members)
+[![twitter][twitter-link]](https://twitter.com/UenoOtto)
+
 
 This repository is about a simple GUI program made with Tkinter (python's standart GUI package) which translates text to morse code and vice-versa. It has both English (en-us) and Portuguese (pt-br) versions. 
 
