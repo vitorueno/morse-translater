@@ -51,11 +51,34 @@ This repository is about a simple GUI program made with Tkinter (python's standa
 
 # :clipboard: Requirements
 
-> Python 3.6 or greater 
+- Python 3.6 or greater 
+- Typer
+- Tkinter
 
-You don't have to install anything else besides Python since TKinter is pre-installed by default, but if necessary, run `python -m pip install tkinter` in order to install the package.
+You don't have to install the Tkinter lib since it is pre-installed by default, but if necessary, run `python -m pip install tkinter` to install it.
 
-Check the [requirements.txt][requirements] to see exactly what I've used
+This way, the only requirement you must install is Typer: 
+
+> `python -m pip install typer`
+
+I highly recommend you to create a virtual environment so you don't mess with your Python installation and then install the packages from the [requirements][requirements.txt] file:
+
+#### Installing the venv library if you don't have it:
+
+> `python -m pip install venv`
+
+#### Creating the virtual environment:
+
+> `python -m venv VIRTUAL_ENV_NAME`
+
+#### Executing your virtual environment:
+
+> **WINDOWS:** `"VIRTUAL_ENV_NAME/Scripts/activate"`
+
+> **LINUX:** `source env/bin/activate`
+
+#### Installing the requirements:
+> `pip install -r requirements.txt`
 
 # :running: Running the Program
 
